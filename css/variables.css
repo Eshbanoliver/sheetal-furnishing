@@ -1,0 +1,50 @@
+/* ============================================
+   CSS Variables & Color Palette
+   ============================================ */
+:root {
+    /* Primary Color Palette from provided design */
+    --color-blush: #F5CEC7;
+    --color-rose: #E79796;
+    --color-peach: #FFC988;
+    --color-coral: #FF8284;
+    --color-sage: #C5C09C;
+
+    /* Neutral Luxury Colors */
+    --color-white: #FFFFFF;
+    --color-cream: #FFF9F5;
+    --color-beige: #F5EDE8;
+    --color-light-grey: #E8E4E0;
+    --color-grey: #9A9590;
+    --color-dark-grey: #4A4642;
+    --color-charcoal: #2D2A28;
+
+    /* Gradient Combinations */
+    --gradient-primary: linear-gradient(135deg, var(--color-blush) 0%, var(--color-peach) 100%);
+    --gradient-secondary: linear-gradient(135deg, var(--color-rose) 0%, var(--color-coral) 100%);
+    --gradient-accent: linear-gradient(135deg, var(--color-sage) 0%, var(--color-beige) 100%);
+    --gradient-glass: linear-gradient(135deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+    --gradient-soft: linear-gradient(to bottom, #FFFFFF, var(--color-cream));
+
+    /* Glassmorphism */
+    --glass-bg: rgba(255, 255, 255, 0.25);
+    --glass-border: rgba(255, 255, 255, 0.35);
+    --glass-shadow: 0 8px 32px rgba(45, 42, 40, 0.08);
+    --glass-blur: blur(12px);
+
+    /* Enhanced Elevation Shadows */
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+    --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 20px 50px rgba(45, 42, 40, 0.12);
+    --shadow-hover: 0 30px 60px rgba(231, 151, 150, 0.15);
+
+    /* Typography */
+    --font-primary: 'Playfair Display', serif;
+    --font-secondary: 'Poppins', sans-serif;
+
+    /* Transitions */
+    --transition-smooth: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-fast: all 0.3s ease;
+
+    /* Spacing */
+    --section-padding: 120px 0;
+}

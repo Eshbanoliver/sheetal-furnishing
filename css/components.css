@@ -160,9 +160,24 @@
 
 .navbar-brand {
     font-family: var(--font-primary);
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 800;
     color: var(--color-charcoal) !important;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.navbar-logo {
+    height: 55px;
+    width: auto;
+    transition: var(--transition-smooth);
+    border-radius: 50%;
+    box-shadow: var(--shadow-sm);
+}
+
+.navbar.scrolled .navbar-logo {
+    height: 45px;
 }
 
 .navbar-brand span {
